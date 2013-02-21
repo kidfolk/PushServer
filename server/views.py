@@ -22,7 +22,7 @@ def index(request):
 
 # 发送推送通知
 def sendAll(request):
-    print 'sendAll'
+    push_group_msg(0,'hello')
     return HttpResponse('Hello World!')
 
 
@@ -49,6 +49,25 @@ def get_access_token():
     print 'session_key:', json_obj['session_key']
     print 'session_secret:', json_obj['session_secret']
 
+# 推送广播组消息
+def push_group_msg(gid,msg):
+    token_data = json.load(open(token_filename,'r'))
+    params = urllib.urlencode({'method':'push_group_msg',
+                               'access_token':token_data['access_token'],
+                               'gid':gid,
+                               'device_type':3,
+                               'messages':msg,
+                               'msg_keys':msg,})
+    headers = {'Content-type': 'application/x-www-form-urlencoded',
+               'Accept': 'text/plain'}
+
+    conn = httplib.HTTPSConnection('channel.api.duapp.com')
+    conn.set_debuglevel(1)
+    conn.request('POST', '/rest/2.0/channel/channel', params, headers);
+
+    response = conn.getresponse()
+    print response.read()
+    pass
 
 def token_need_refresh():
     token_data = None
