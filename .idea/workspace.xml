@@ -4,7 +4,7 @@
     <list default="true" id="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" name="Default" comment="" />
     <ignored path="PythonServer.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/views.py" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361446007548" ignored="false" />
+    <file path="/views.py" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361447288287" ignored="false" />
     <file path="/urls.py" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361442928411" ignored="false" />
     <file path="/index.html" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361437566094" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -68,7 +68,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="9" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.4540441">
+            <state line="87" column="34" selection-start="3056" selection-end="3056" vertical-scroll-proportion="0.7205882">
               <folding>
                 <element signature="e#41#56#0" expanded="true" />
               </folding>
@@ -518,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="9" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.4540441">
+        <state line="87" column="34" selection-start="3056" selection-end="3056" vertical-scroll-proportion="0.7205882">
           <folding>
             <element signature="e#41#56#0" expanded="true" />
           </folding>
