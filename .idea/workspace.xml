@@ -4,9 +4,27 @@
     <list default="true" id="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" name="Default" comment="" />
     <ignored path="PythonServer.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/views.py" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361447288287" ignored="false" />
+    <file path="/views.py" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361511263589" ignored="false" />
     <file path="/urls.py" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361442928411" ignored="false" />
     <file path="/index.html" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361437566094" ignored="false" />
+    <file path="/Dummy.txt" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361522254743" ignored="false" />
+    <file path="$USER_HOME$/code.gezbox/gezbox_parent/common/src/com/gezbox/android/AbsApplication.java" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361515762566" ignored="false" />
+    <file path="/AbsApplication.java" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361498370675" ignored="false" />
+    <file path="/fragment.java" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361498264186" ignored="false" />
+    <file path="$USER_HOME$/code.gezbox/gezbox_parent/common/src/com/gezbox/android/GezboxPushMsgReceiver.java" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361509382859" ignored="false" />
+    <file path="$USER_HOME$/code.gezbox/gezbox_parent/common/pom.xml" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361516218231" ignored="false" />
+    <file path="$USER_HOME$/code.gezbox/gezbox_parent/onepiece/AndroidManifest.xml" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361522176358" ignored="false" />
+    <file path="$USER_HOME$/code.gezbox/gezbox_parent/external/install-jar.sh" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361516100899" ignored="false" />
+    <file path="$USER_HOME$/Downloads/SDK_OPEN_1.1.16.1/个推Android平台SDK接入/客户端/演示工程源码/SDK_Demo_Master/project.properties" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361515981845" ignored="false" />
+    <file path="/install-jar.sh" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361516086969" ignored="false" />
+    <file path="/pom.xml" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361516206996" ignored="false" />
+    <file path="$USER_HOME$/code.gezbox/gezbox_parent/onepiece/src/main/java/com/gezbox/android/onepiece/MainActivity.java" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361520393961" ignored="false" />
+    <file path="/MainActivity.java" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361520377183" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361522161802" ignored="false" />
+    <file path="$PROJECT_DIR$/../PushMessageDemo/src/com/gezbox/demo/PushMessageDemo.java" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361522463125" ignored="false" />
+    <file path="/PushMessageDemo.java" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361520641860" ignored="false" />
+    <file path="$USER_HOME$/code.gezbox/gezbox_parent/common/src/com/gezbox/android/PushMsgReceiver.java" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361522075179" ignored="false" />
+    <file path="/PushMsgReceiver.java" changelist="c1c3fc38-d3f6-4bf4-8e57-75d15b014a7a" time="1361522072279" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +86,41 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="34" selection-start="3056" selection-end="3056" vertical-scroll-proportion="0.7205882">
+            <state line="97" column="41" selection-start="3427" selection-end="3427" vertical-scroll-proportion="0.4099379">
               <folding>
                 <element signature="e#41#56#0" expanded="true" />
+                <element signature="e#828#1801#0" expanded="false" />
+                <element signature="e#1838#2585#0" expanded="false" />
+                <element signature="e#4364#4570#0" expanded="false" />
+                <element signature="e#4602#4802#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="token.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/token.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="85" selection-start="18" selection-end="85" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="group.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/group.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="6" selection-start="0" selection-end="6" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/django/core/handlers/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="103" column="22" selection-start="4393" selection-end="4393" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,15 +139,16 @@
         <option value="$PROJECT_DIR$/templates/error.html" />
         <option value="$PROJECT_DIR$/PythonServer/urls.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/group.txt" />
         <option value="$PROJECT_DIR$/server/views.py" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="1054" />
+    <option name="x" value="-1080" />
+    <option name="width" value="1080" />
+    <option name="height" value="1920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -126,8 +176,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,6 +238,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,11 +256,11 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -296,13 +346,6 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -324,6 +367,13 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="false" name="PythonServer" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,7 +393,9 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -366,23 +418,23 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
+    <frame x="-1080" y="0" width="1080" height="1920" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2470651" sideWeight="0.6124197" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3875803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22147001" sideWeight="0.64166665" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35833332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -443,7 +495,16 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/server/views.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -452,18 +513,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/server/views.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="34" selection-start="3056" selection-end="3056" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#41#56#0" expanded="true" />
+            <element signature="e#828#1801#0" expanded="false" />
+            <element signature="e#1838#2585#0" expanded="false" />
+            <element signature="e#4364#4570#0" expanded="false" />
+            <element signature="e#4602#4802#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/views.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="24" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#41#56#0" expanded="true" />
+            <element signature="e#828#1801#0" expanded="false" />
+            <element signature="e#1838#2585#0" expanded="false" />
+            <element signature="e#4364#4570#0" expanded="false" />
+            <element signature="e#4602#4802#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonServer/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="29" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
@@ -471,56 +547,83 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1010" column="8" selection-start="36109" selection-end="36109" vertical-scroll-proportion="0.33190578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-6.4898787">
-          <folding>
-            <marker date="1312165957000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1312165957000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="35" selection-end="35" vertical-scroll-proportion="0.079166666">
+        <state line="3" column="17" selection-start="35" selection-end="35" vertical-scroll-proportion="0.079166666" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonServer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="179" selection-end="179" vertical-scroll-proportion="0.13194445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="51" selection-start="218" selection-end="218" vertical-scroll-proportion="0.24710983" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea12/python_stubs/596071422/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="452" column="4" selection-start="13524" selection-end="13524" vertical-scroll-proportion="0.33285612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Python/2.7/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="22" selection-start="4393" selection-end="4393" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/group.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="0" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1010" column="8" selection-start="36109" selection-end="36109" vertical-scroll-proportion="15.151731">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/token.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="47" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0">
+        <state line="0" column="85" selection-start="18" selection-end="85" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonServer/urls.py">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="179" selection-end="179" vertical-scroll-proportion="0.13194445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="51" selection-start="218" selection-end="218" vertical-scroll-proportion="0.24710983">
-          <folding />
+        <state line="1258" column="4" selection-start="45432" selection-end="45432" vertical-scroll-proportion="5.481149">
+          <folding>
+            <element signature="e#45463#47854#0" expanded="false" />
+            <element signature="e#47907#48385#0" expanded="false" />
+            <element signature="e#48427#49097#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="34" selection-start="3056" selection-end="3056" vertical-scroll-proportion="0.7205882">
+        <state line="97" column="41" selection-start="3427" selection-end="3427" vertical-scroll-proportion="0.4099379">
           <folding>
             <element signature="e#41#56#0" expanded="true" />
+            <element signature="e#828#1801#0" expanded="false" />
+            <element signature="e#1838#2585#0" expanded="false" />
+            <element signature="e#4364#4570#0" expanded="false" />
+            <element signature="e#4602#4802#0" expanded="false" />
           </folding>
         </state>
       </provider>

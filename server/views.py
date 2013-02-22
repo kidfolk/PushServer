@@ -10,6 +10,7 @@ from django.template.loader import get_template
 from django.template import Context
 
 token_filename = 'token.json'
+group_filename = 'group.txt'
 
 
 def index(request):
@@ -22,8 +23,12 @@ def index(request):
 
 # 发送推送通知
 def sendAll(request):
-    gid = create_group('test', 'test baidu push')
+    if need_create_group():
+        create_group('test', 'test baidu push')
+
+    gid = open(group_filename, 'r').readline()
     push_group_msg(gid, 'hello')
+    pushmsg_to_user('hello from python')
     return HttpResponse('Hello World!')
 
 
@@ -67,7 +72,8 @@ def create_group(name, info):
     response = conn.getresponse()
     json_obj = json.loads(response.read())
     gid = json_obj['response_params']['gid']
-    print gid
+    group_file = open(group_filename, 'w+')
+    group_file.write(gid)
     return gid
 
 # 推送广播组消息
@@ -76,10 +82,36 @@ def push_group_msg(gid, msg):
     params = urllib.urlencode({'method': 'push_group_msg',
                                'access_token': token_data['access_token'],
                                'gid': gid,
+                               'device_type': 3,
                                'messages': msg,
                                'msg_keys': msg})
     headers = {'Content-type': 'application/x-www-form-urlencoded',
-               'Accept': 'text/plain'}
+               'Accept': '*/*',
+               'Pragma': 'no-cache',
+               'Host': 'channel.api.duapp.com',
+               'User-Agent': 'curl/7.12.1'}
+
+    conn = httplib.HTTPSConnection('channel.api.duapp.com')
+    conn.set_debuglevel(1)
+    conn.request('POST', '/rest/2.0/channel/channel', params, headers);
+
+    response = conn.getresponse()
+    print response.read()
+
+
+def pushmsg_to_user(msg):
+    token_data = json.load(open(token_filename, 'r'))
+    params = urllib.urlencode({'method': 'pushmsg_to_user',
+                               'access_token': token_data['access_token'],
+                               'user_id': '1009554950909313206',
+                               'device_type': 3,
+                               'messages': msg,
+                               'msg_keys': msg})
+    headers = {'Content-type': 'application/x-www-form-urlencoded',
+               'Accept': '*/*',
+               'Pragma': 'no-cache',
+               'Host': 'channel.api.duapp.com',
+               'User-Agent': 'curl/7.12.1'}
 
     conn = httplib.HTTPSConnection('channel.api.duapp.com')
     conn.set_debuglevel(1)
@@ -96,5 +128,17 @@ def token_need_refresh():
     except IOError:
         print 'read token.json error'
     if token_data == None:
+        return True
+    return False
+
+
+def need_create_group():
+    group_id = None
+    try:
+        group_id = open(group_filename, 'r').readline()
+    except IOError:
+        print 'read group.txt error'
+
+    if group_id == None:
         return True
     return False
